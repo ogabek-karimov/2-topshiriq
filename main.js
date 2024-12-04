@@ -14,14 +14,17 @@ if (a === null || a.trim() === "" || b === null || b.trim() === "" || c === null
 
     if ((a > b && a < c) || (a > c && a < b)) {
 
-        console.log( a + " -birinchi kiritilgan son O'rta qiymat ");
+        console.log( a + " -birinchi kiritilgan son o'rta qiymat ");
+        alert( a + " -birinchi kiritilgan son o'rta qiymat ");
         
     } else if ((b > a && b < c) || (b > c && b < a)) {
 
-        console.log( b + " -ikkinchi kiritilgan son O'rta qiymat ");
+        console.log( b + " -ikkinchi kiritilgan son o'rta qiymat ");
+        alert( b + " -ikkinchi kiritilgan son o'rta qiymat ");
     } else {
 
-        console.log( c + " -uchinchi kiritilgan son O'rta qiymat");
+        console.log( c + " -uchinchi kiritilgan son o'rta qiymat");
+        alert( c + " -uchinchi kiritilgan son o'rta qiymat");
     }
 
 
